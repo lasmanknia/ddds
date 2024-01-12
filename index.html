@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UDDOG Information</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         * {
             margin: 0;
@@ -70,7 +71,7 @@
             <option value="bloodGroup">Blood Group</option>
         </select>
         <label for="infoFilter"></label>
-        <input type="text" id="infoFilter" oninput="filterData()">
+        <input type="text" id="infoFilter" placeholder="Find your details" oninput="filterData()">
         <input type="checkbox" id="availabilityCheckbox" onchange="filterData()">
         <div class="availability-count" id="availabilityCount"></div>
     </div>
